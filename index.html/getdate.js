@@ -28,9 +28,9 @@ let monthsName = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayNames + "," + monthsName + " " + d.getDate() +", " + year;
 let options = {
-        weekday: "numeric",
+        weekday: "short",
         day: "numeric",
-        month: "numeric",
+        month: "short",
         year: "numeric"
     };
     document.getElementById(
