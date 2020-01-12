@@ -21,4 +21,6 @@ img {
     top:0px;
     right: 0px;
 }
-    
+    body {margin: .5rem;}
+    span {font-weight: 700;}
+    #getdate {color: yellow;}
