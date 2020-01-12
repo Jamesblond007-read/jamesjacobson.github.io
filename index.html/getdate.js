@@ -34,4 +34,4 @@ let options = {
     };
     document.getElementById(
         "getdate2"
-    ).textContent = new Date().toLocaleDateString("en-US",options);
+    ).textContent = new Date().toLocaleDateString(options);
