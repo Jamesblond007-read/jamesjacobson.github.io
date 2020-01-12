@@ -26,7 +26,6 @@ let d = new Date();
 let dayNames = daynames[d.getDate()];
 let monthsName = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayNames + "," + monthsName + " " + d.getDate() +", " + year;
 let options = {
         weekday: "short",
         day: "numeric",
