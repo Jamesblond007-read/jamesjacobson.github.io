@@ -30,7 +30,7 @@ let fulldate = dayNames + "," + monthsName + " " + d.getDate() +", " + year;
 
 
 
-try {
+
     let options = {
         weekday: "numeric",
         day: "numeric",
@@ -40,6 +40,3 @@ try {
     document.getElementById(
         "getdate2"
     ).textContent = new Date().modifed("en-US",options);
-} catch (e){
-    alert("Error with the browser with the browser");
-}
