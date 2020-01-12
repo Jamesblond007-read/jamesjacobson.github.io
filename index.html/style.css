@@ -3,13 +3,22 @@ nav {
     margin-top: 1em;
     line-height: 4em;
 }
-#link {
+#style.link {
     display: flex;
-    flex-flow: row wrap;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
+     background-color: #6cc551;
+
 }
 img {
-    float: right;
+    max-width: 25%;
+    position: absolute;
+    top:0px;
+    right: 0px;
 }
     
