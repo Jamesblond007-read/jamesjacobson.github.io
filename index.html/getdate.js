@@ -29,8 +29,6 @@ let year = d.getFullYear();
 let fulldate = dayNames + "," + monthsName + " " + d.getDate() +", " + year;
 
 
-document.getElementById("getdate").textContent = fulldate;
-
 
 try {
     let options = {
