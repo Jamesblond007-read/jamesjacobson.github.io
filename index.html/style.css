@@ -10,6 +10,7 @@ nav {
 
 header, footer {
     padding-top: 1em;
+    font-family: 'PT Sans', sans-serif;
     padding-bottom: 1em;
     text-align: center;
      background-color: #6cc551;
