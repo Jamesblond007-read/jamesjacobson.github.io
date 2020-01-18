@@ -44,6 +44,6 @@ span {font-weight: 700;}
         list-style-type: none;}
 	h1,h2 {text-align: center;}
 	img {
-		width: auto;
-		height: auto;
+		width: 250;
+		height: 300;
 	}
