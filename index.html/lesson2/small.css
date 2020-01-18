@@ -1,11 +1,13 @@
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
+	text-align: center;
 }
 /* phone or baseline views **************************/
 
 h2 {
 	color: #536878;
+	text-align: center;
 }
 
 main {
