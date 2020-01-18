@@ -5,7 +5,7 @@ body {
 }
 /* phone or baseline views **************************/
 
-h2 {
+h3 {
 	color: #536878;
 	text-align: center;
 }
@@ -37,4 +37,4 @@ span {font-weight: 700;}
     #getdate {color: yellow;}
     ul {text-align: center;
         list-style-type: none;}
-	h1 {text-align: center;}
+	h2 {text-align: center;}
