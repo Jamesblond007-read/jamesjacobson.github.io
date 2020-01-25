@@ -11,24 +11,19 @@ h3 {
 
 main {
 	margin: 0 auto;
-	text-align: center;
-	background-color: gray;
+	background-color: #f0f3bd;
 }
-.colimage {
-	box-shadow: 0 0 30px #333;
-}
-header, footer {
-    font-family: 'PT Sans', sans-serif;
-    text-align: center;
-	background-color: #6cc551;
-	padding: 0.5em; 
 
+header, footer {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+	background-color: #05668d;
+	padding: 0.5em; 
 }
 span {font-weight: 700;}
  #getdate {color: yellow;}
-ul,ol {text-align: center;
-        list-style-type: none;}
-h2 {text-align: center;}
+h2 {font-family: 'Oxygen', sans-serif;
+	font-size: 25px;}
 
 nav {
 	background-color: #028090;
@@ -40,4 +35,20 @@ nav li a {
     text-align: center;
     padding: 0.5em 2em 0.5em 2em ;
 	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li a:hover {
+    background-color: #00a896;
+    color: black;
+}
+p {font-size: 18px;
+	color: black;
+	font-family: 'Oxgen' sans-serif;}
+footer {font-size: 16px;}
