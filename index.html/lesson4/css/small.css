@@ -96,3 +96,8 @@ nav ul.hide {
   #thunder{max-width: 80px;
         width: 100%;
         height: auto;}
+    h2.wind{
+        font-family: 'Oxygen', sans-serif;
+            font-size: 15px;
+            align-content: center;
+    }
