@@ -7,14 +7,15 @@
 <title>Website Planning Document </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="css/small.css" rel= "stylesheet">
-<link href="css/mediem.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-    <img src="images/wonlogo.png" alt="mylogo">
+<header>
+    <img id="thunder"src="images/wonlogo.png" alt="mylogo">
     <h1>Weather Or Worry</h1>
+
 </header>
 <nav>
     <button onclick="toggleMenu()">&#9776; Menu</button>
@@ -27,6 +28,7 @@
         <li><a href="">Gallery</a></li>
     </ul>
 </nav>
+<script src="js/toggleMenu.js"></script>
 <main>
     <h2>Preston</h2>
    <div class="infobox">Hero w/ weather summary</div>
@@ -35,9 +37,9 @@
    <div class="infobox">Contact information</div>
 </main>
 <footer>
-    <p>&copy; 2020 |James Jacobson| Utah | <a id = "style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
+    <p>&copy; 2020 |James Jacobson| Utah|<a id = "style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
      last updated: <span id="getdate2"></span>
-     <script> document.write("Page was last modified on: " + document.lastModified);</script>
+     <script src="js/getdate.js"> </script>
 </footer>
 </body>
 </html>

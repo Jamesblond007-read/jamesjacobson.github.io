@@ -1,0 +1,1 @@
+document.write("Page was last modified on: " + document.lastModified);

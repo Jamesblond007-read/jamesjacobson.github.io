@@ -1,0 +1,25 @@
+@media screen and (min-width:32.5em) {
+    nav ul.hide  {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        display: block;
+        flex: 1 1 100%;
+        
+    }
+
+    nav button {
+        display: none;
+    }
+    nav {
+        padding: 0;
+        background-color: #05668d;
+        text-align: center;
+        
+    }
+    a { 
+        padding: 45px;
+    }
+}
