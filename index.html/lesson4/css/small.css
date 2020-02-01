@@ -46,11 +46,7 @@ nav ul {
 nav li a:hover {
     background-color: #00a896;
     color: black;
-}
-div {font-size: 18px;
-	color: black;
-    font-family: 'Oxgen' sans-serif;}
-    
+}   
 footer {font-size: 16px;
     text-align: center;
     max-width: 700px;
