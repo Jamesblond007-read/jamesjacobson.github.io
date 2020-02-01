@@ -1,3 +1,3 @@
 function toggleMenu() {
-    document.getElementById("navMenu").classList.toggle("hide");
+    document.getElementById("hamberg").classList.toggle("hide");
 }
