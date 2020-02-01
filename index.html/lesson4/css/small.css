@@ -1,0 +1,85 @@
+body {
+	background-color: whitesmoke;
+}
+/* phone or baseline views **************************/
+
+main {
+	margin: 0 auto;
+	background-color: #f0f3bd;
+}
+
+header {
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+	background-color: #00a896; 
+}
+h2 {font-family: 'Oxygen', sans-serif;
+	font-size: 25px;}
+
+nav {
+    padding: 0;
+    background-color: #05668d;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li a:hover {
+    background-color: #00a896;
+    color: black;
+}
+div {font-size: 18px;
+	color: black;
+    font-family: 'Oxgen' sans-serif;}
+    
+footer {font-size: 16px;
+    text-align: center;}
+
+nav button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid black;
+    color: #fff;
+}
+nav button:hover {
+    background-color: #00a896;
+    color: black;
+}
+nav button:focus{
+    outline: black;
+}
+nav, main, footer {
+    clear: both;
+  }
+.infobox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: #eee;
+    color: #444;
+    font-family: 'Oxygen', sans-serif;
+}
+.hide li {
+    display: block;
+}
+nav ul.hide {
+    display: none;
+}
