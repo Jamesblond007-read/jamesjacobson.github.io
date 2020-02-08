@@ -1,0 +1,61 @@
+@media screen and (min-width:32.5em) {
+    nav ul.hide  {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        display: block;
+        flex: 1 1 100%;
+        
+    }
+
+    nav button {
+        display: none;
+    }
+    nav {
+        padding: 0;
+        background-color: #05668d;
+        text-align: center;
+        
+    }
+    a { 
+        padding: 45px;
+    }
+    .thefive{
+        flex: 1 1 100%;
+        text-align: center;
+        border: 1px solid #393A3F;
+    }
+    .backgr{
+        display: block;
+        background-color: #f0f3bd;
+        padding-bottom: 2em;
+        margin: 1em 0 1em 0;
+        min-width: 35rem;
+        max-width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 5px auto 10px auto;
+    }
+    .forcastday{
+        background-color: #f0f3bd;
+    color: black;
+    }
+    .forcast5pic{
+        border-left: 1px solid rgb(37, 37, 37);
+    }
+    .thefive .forcast5pic, .temps {
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+    .Presart img{
+        width: 40%;
+        box-shadow: 0 0 7px #111;
+        float: right;
+        left: 10px;
+        bottom: 10px;
+    }
+}
