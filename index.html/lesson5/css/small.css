@@ -120,6 +120,7 @@ nav ul.hide {
     border: 1px solid rgba(92, 91, 91, 0.6);
     color: blanchedalmond;
     opacity: 0.80;
+    margin: 0px;
 }
 #greenval{
     width: 100%;
@@ -167,4 +168,10 @@ color: white;
 }
 #act{
     background-color: #00a896;
+}
+.Imap{
+    display: none;
+}
+span{
+    color: yellow;
 }
