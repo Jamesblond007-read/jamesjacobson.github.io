@@ -161,7 +161,6 @@ color: white;
 }
 .banner{
     font-family: 'Oxygen', sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center
     
