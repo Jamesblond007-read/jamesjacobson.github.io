@@ -5,7 +5,7 @@ try {
     alert('Error with code or your browser does not support Locale');
   }
   var pancake = new Date();
-if(pancake.getDay() == 6) 
+if(pancake.getDay() == 5) 
 {
     document.getElementById("banner").style.display = "block";
 }

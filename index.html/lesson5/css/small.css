@@ -159,7 +159,7 @@ color: white;
 .conicon{
     padding: 2em;
 }
-.banner{
+#banner{
     font-family: 'Oxygen', sans-serif;
     display: none;
     justify-content: center;
