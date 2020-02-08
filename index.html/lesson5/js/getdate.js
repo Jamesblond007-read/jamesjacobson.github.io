@@ -4,3 +4,7 @@ try {
   } catch (e) {
     alert('Error with code or your browser does not support Locale');
   }
+  var date = new Date();
+if (date.getDay() == 5) {
+    document.getElementById("banner").style.display = "block";
+}
