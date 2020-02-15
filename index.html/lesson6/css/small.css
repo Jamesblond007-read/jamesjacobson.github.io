@@ -114,8 +114,8 @@ nav ul.hide {
 .smallbox{
     position: absolute;
     font-family: 'Oxygen', sans-serif;
-    top: 20px;
-    left: 20px;
+    top: 100px;
+    left: 50px;
     background-color: #05668d;
     border: 1px solid rgba(92, 91, 91, 0.6);
     color: blanchedalmond;
@@ -133,7 +133,7 @@ p {
     display: none;
     background-color: #f0f3bd;
 }
-.theHero picture.heropic img{
+.theHero{
     margin: 10px auto;
     position: relative;
     max-width: 1200px;

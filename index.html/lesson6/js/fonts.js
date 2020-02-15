@@ -1,4 +1,4 @@
-ebFont.load({
+WebFont.load({
     google: {
       families: [ 'Oxygen' 
       ]
