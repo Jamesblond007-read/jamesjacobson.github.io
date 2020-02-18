@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+.themid picture {
+    display: grid;
+    justify-content: center;
+    padding: 7px;
+    grid-template-columns: (300px, 1fr);  
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    border: 3px , black;
+}
