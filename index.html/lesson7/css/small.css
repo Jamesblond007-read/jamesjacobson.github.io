@@ -203,7 +203,7 @@ span{
 }
 .thegallery{
     display: grid;
-    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     margin: auto;
     width: 100%;
