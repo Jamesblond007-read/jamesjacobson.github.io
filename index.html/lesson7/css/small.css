@@ -219,3 +219,10 @@ img {
     filter: blur(0px);
     transition: filter 5s;
 }
+figure{
+    text-align: center;
+}
+#themidcent{
+    text-align: center;
+    color: #05668d;
+}
