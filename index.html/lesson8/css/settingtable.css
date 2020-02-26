@@ -1,7 +1,9 @@
-table, th, td {
-    border: 1px solid white;
+table {
+    border: 1px solid lightgrey;
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
+    table-layout: fixed;
+    box-shadow: 4px 4px 4px 4px #628ca6;
 }
 
 tbody th {
@@ -18,10 +20,6 @@ tbody td {
 
 tbody tr:nth-child(odd) {
     background-color: #e7ffed;
-}
-
-table {
-    box-shadow: 4px 4px 4px 4px #628ca6;
 }
 
 thead {
@@ -46,4 +44,8 @@ h1 {
 #darkb {
     background-color:  #628ca6;
     color: #e7f0ed;
+}
+th, td {
+    padding: 10px;
+    border: 2px solid lightgray;
 }
