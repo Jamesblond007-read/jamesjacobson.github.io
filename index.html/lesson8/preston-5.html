@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preston Town Page part 2</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="css/small.css" rel= "stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <img id="thunder" src="images/wonlogo.png" alt="mylogo">
+    <h1>Weather Or Worry</h1>
+    <h2 id="wind">Blow Your Weather Concerns Away.</h2>
+</header>
+<nav>
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="hamberg" class="hide">
+        <li><a href="">Home</a></li>
+        <li><a id="act" href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li> 
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Preston</h2>
+    <section class="theHero">
+        <img id="greenval" src="images/prestonPic.jpg" alt="hero">
+        <div class="smallbox">
+            <h3>How it's outside</h3>
+            <p>Currently: Rainning</p>
+            <p>Current Temp: 38 &#7506;F</p>
+            <p>High: 40 &#7506;F</p>
+            <p>Low: 31 &#7506;F</p>
+            <p>Wind speed: 9mph</p>
+            <p>Pressure: 30.04 in</p>
+            <p>Humidity: 81%</p>
+    </div>
+    </section>
+    <h2>The 5 Day Forecast</h2>
+    <section class="backgr">
+        <h3>This week</h3>
+    <div class="thefive">
+    <div class="forcastday">Saturday</div>
+    <div class="forcast5pi"><img src="images/snowyday.png" alt="snow"></div>
+    <div class="temps">35&#7506;</div>
+    </div>
+    <div class="thefive">
+    <div class="forcastday">Sunday</div>
+    <div class="forcast5pi"><img src="images/sunnyday.png" alt="sun"></div>
+    <div class="temps">30&#7506;</div>
+    </div>
+    <div class="thefive">
+    <div class="forcastday">Monday</div>
+    <div class="forcast5pi"><img src="images/rainyday.png" alt="rain"></div>
+    <div class="temps">30&#7506;</div>
+    </div>
+    <div class="thefive">
+    <div class="forcastday">Tuesday</div>
+    <div class="forcast5pi"><img src="images/sunnyday.png" alt="sun2"></div>
+    <div class="temps">27&#7506;</div>
+    </div>
+    <div class="thefive">
+    <div class="forcastday">Wednesday</div>
+    <div class="forcast5pi"><img src="images/thunder.png" alt="thun"></div>
+    <div class="temps">31&#7506;</div>
+    </div>
+    </section>
+    <section class="Presart">
+        <img src="images/artpic.jpg" alt="drive">
+        <h2>Windy snowstorm expected to make roads dangerous</h2>
+        <p>By NECIA P. SEAMONS</p>
+        <p>The Idaho Transportation Department (ITD) and the National Weather Service (NWS) are advising the traveling public to use caution while in transit due to an extended severe winter weather advisory beginning this evening Wed., Feb. 5. 
+            Drivers can expect high winds, blowing and drifting snow, low visibilty and heavy snow in higher elevations. Up to five inches of snow in the valley and nine inches in the mountains is expected over the next 24 hours, in Franklin County, the eastern part of Oneida County and north throughout the Snake River Plain.
+            ITD advises drivers to expect intermittent road closures as forecasted increases of wind speed and precipitation may require a halt in snow-clearing operations if conditions become too dangerous for plows to operate.(Preston Citizen)</p>
+    </section>
+
+    <section class="contactme">
+        <div class="Imap"><iframe src="https://maps.google.com/maps?&amp;&amp;hl=en&amp;q=Preston%20Id+(TOWN)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe></div><br />
+        <div class="conicon">
+        <h2>Contact Us</h2>
+        <p>130 N Main<br>
+            Preston, ID 83263</p>
+        <p>&#128222;(208) 999-9999<br>
+            &#128231; wcenter@weatherorworry.com</p>
+            <img src="images/pinterest.png" alt="pin">
+            <img src="images/facebook.png" alt="face">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram-sketched.png" alt="insta">
+        
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2020 |James Jacobson| Utah|<a href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
+     last updated: <span id="getdate"></span>
+</footer>
+<script src="js/getdate.js"> </script>
+<script src="js/toggleMenu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    ebFont.load({
+  google: {
+    families: [ 'Oxygen' 
+    ]
+  }
+});
+</script>
+</body>
+</html>
