@@ -8,4 +8,7 @@
     .thegallery figure:hover {
         box-shadow: 0  0 50px #333333;
     }
+    form label.bub {
+        padding: 0.2rem;
+    }
 }

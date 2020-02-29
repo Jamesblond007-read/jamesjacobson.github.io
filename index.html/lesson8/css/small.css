@@ -226,3 +226,75 @@ figure{
     text-align: center;
     color: #05668d;
 }
+ form fieldset {
+     margin: auto;
+     border-radius: 12px;
+     margin: 1rem 1rem;
+     border: solid 2px black;
+     background-color: wheat;
+ }
+ fieldset legend {
+    color: #05668d;
+    font-size: 24px;
+ }
+
+ form label {
+     margin: 0 1rem 0 0;
+ }
+
+ .userinfo {
+     display: block;
+     padding: 1rem;
+     margin-top: 1rem;
+     font-size: 12px;
+ }
+
+ form label.userinfo input, textarea, form select {
+     display: block;
+     border: solid 1px gray;
+     border-radius: 5px;
+     margin: 0 0 0 0.2rem;
+     padding: 1rem;
+     background-color: rgba(163, 207, 180, 0.4);
+     font-size: 16px;
+     width: 100%;
+     max-width: 20rem;
+ }
+
+ form label.bub {
+     display: block;
+     padding: .5rem;
+     font-size: 1rem;
+ }
+
+ .flexly {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+}
+label.flexly {
+    display: block;
+}
+
+#ratingvalue{
+    margin: 0 0.2rem;
+}
+
+#ratingvalue:hover{
+    box-shadow: none;
+}
+#thebutton {
+    border: none;
+    margin: 1.25rem 1rem 1.5rem 1rem;
+    background-color: #05668d;
+    padding: 0.75rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+}
