@@ -12,15 +12,18 @@
         padding: 0.2rem;
     }
     main div div img {
-        display: inline;
-        margin: 0 auto;
+        display: block;
+        margin: auto;
         max-width: 100%;
-        vertical-align: bottom;
+        width: auto;
+        height: auto;
     }
     main .HomeCards {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
     }
     main div div section {
         margin-top: 1rem;

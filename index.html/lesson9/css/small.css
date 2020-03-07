@@ -317,13 +317,16 @@ label.flexly {
 }
 @media screen and (max-width: 32.5em) {
 .HomeCards {
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: 1fr;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
     text-align: center;
     padding: 10px;
 }
 }
 .HomeCards img {
+    display: block;
     max-width: 100%;
+    width: auto;
+    height: auto;
 }

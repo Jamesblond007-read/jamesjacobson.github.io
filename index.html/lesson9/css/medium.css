@@ -72,11 +72,11 @@
     grid-template-columns: 1fr 1fr;
 }
 .HomeCards {
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     padding: 10px;
+    margin: 5px;
 }
 .HomeCards section {
 	max-width: 100%;
@@ -84,7 +84,6 @@
 	border:1px solid #bbb;
   background-color: #eee;
 	display: flex;
-	flex-wrap: wrap;
 }
 .HomeCards:nth-child(odd) {
 	flex-direction: row-reverse;
