@@ -1,0 +1,28 @@
+@media screen and (min-width: 60em) {
+    .smallbox p {
+        font-size: 18px;
+    }
+    .thegallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .thegallery figure:hover {
+        box-shadow: 0  0 50px #333333;
+    }
+    form label.bub {
+        padding: 0.2rem;
+    }
+    main div div img {
+        display: inline;
+        margin: 0 auto;
+        max-width: 100%;
+        vertical-align: bottom;
+    }
+    main .HomeCards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main div div section {
+        margin-top: 1rem;
+    }   
+}
