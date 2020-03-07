@@ -73,19 +73,20 @@
 }
 .HomeCards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     padding: 10px;
     margin: 5px;
 }
 .HomeCards section {
 	max-width: 100%;
-  margin: .5rem auto;
-	border:1px solid #bbb;
-  background-color: #eee;
-	display: flex;
+    margin: auto;
+    border:1px solid #bbb;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
 }
-.HomeCards:nth-child(odd) {
+.HomeCards section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 }
