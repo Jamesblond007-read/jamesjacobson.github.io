@@ -57,6 +57,7 @@
     }
     #playbox{
         display: flex;
+        width: 100%;
     }
     .forcast5icon{
         text-align: center;
