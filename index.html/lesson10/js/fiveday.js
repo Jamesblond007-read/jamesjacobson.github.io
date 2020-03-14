@@ -20,7 +20,7 @@ for (i=1; i<6; i++) {
 var counter = 1;
 for (i=0; i<40; i++) {
     if (forecastData.list[i].dt_txt.includes("18:00:00")) {
-        var imagesrc = 'https://openweathermap.org/img/w/' + forecastData.list[i].weather[0].icon + '@2x.png';
+        var imagesrc = 'https://openweathermap.org/img/wn/' + forecastData.list[i].weather[0].icon + '@2x.png';
         var desc = forecastData.list[i].weather[0].description;
         
         document.getElementById('icon' + d).setAttribute('src', imagesrc);

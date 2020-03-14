@@ -8,9 +8,10 @@ document.getElementById('currenttemp').textContent = Math.round(jsObject.main.te
 document.getElementById('Temp').textContent = Math.round(jsObject.main.temp_max);
 document.getElementById('Humidity').textContent = Math.round(jsObject.main.humidity);
 document.getElementById('WindSpeed').textContent = Math.round(jsObject.wind.speed);
-document.getElementById('weather').textContent = (jsObject.weather.main);
 const temp = document.getElementById('currenttemp').textContent;
 const wind = document.getElementById('WindSpeed').textContent;
+const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.weather[0].icon + '@2x.png';
+document.getElementById('icon').setAttribute('src', imagesrc);
 
 var t = parseFloat(temp);
 var w = parseFloat(wind);
