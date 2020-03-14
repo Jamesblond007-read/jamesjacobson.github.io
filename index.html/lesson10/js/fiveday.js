@@ -7,7 +7,7 @@ fetch(forecastApiURL)
     var d = 1;
 
     var now = new Date();
-    var day = now.getDate();
+    var day = now.getDay();
     var daysoftheweek = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
     console.log(day);
 for (i=1; i<6; i++) {
@@ -17,14 +17,16 @@ for (i=1; i<6; i++) {
     }
     document.getElementById("day" + i).textContent = daysoftheweek[weekday];
 }
+var counter = 1;
 for (i=0; i<40; i++) {
     if (forecastData.list[i].dt_txt.includes("18:00:00")) {
-        var imagesrc = 'https://openweathermap.org/img/w/' + forecastData.list[i].weather[0].icon + '.png';
+        var imagesrc = 'https://openweathermap.org/img/w/' + forecastData.list[i].weather[0].icon + '@2x.png';
         var desc = forecastData.list[i].weather[0].description;
         
         document.getElementById('icon' + d).setAttribute('src', imagesrc);
         document.getElementById('icon' + d).setAttribute('alt', desc);
-
+    daysoftheweek[(day+counter)%7];
+        counter++;
         document.getElementById('temp' + d).textContent = Math.round(forecastData.list[i].main.temp); 
         d=d+1;}
 }
