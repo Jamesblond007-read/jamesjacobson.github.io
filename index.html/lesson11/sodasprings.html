@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preston with API</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="css/small.css" rel= "stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <img id="thunder" src="images/wonlogo.png" alt="mylogo">
+    <div>
+    <h1>Weather Or Worry</h1>
+    <h2 id="wind">Blow Your Weather Concerns Away.</h2>
+    </div>
+</header>
+<nav>
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="hamberg" class="hide">
+        <li><a href="">Home</a></li>
+        <li><a id="act" href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li> 
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Preston</h2>
+    <section class="theHero">
+        <picture>
+        <source media="(max-width: 500px)" srcset="images/valleysmall.jpg">
+        <source media="(max-width: 800px) and (min-width: 501px)" srcset="images/valleymid.jpg ">
+        <source media="(min-width: 801px)" srcset="images/valleylarge.jpg">
+        <img id="greenval" src="images/valleysmall.jpg" alt="hero">
+        </picture>
+        <section class="smallbox">
+            <div class="under">
+            <h3>How it's outside</h3>
+            </div>
+            <div class="wbox">Currently:</div>
+            <div class="wboxv"><img id="icon" src="icon" alt="weathericon"></div>
+            <div class="wbox">Current Temp:</div> 
+            <div class="wboxv"><span id="currenttemp"></span>&#7506; F</div>
+            <div class="wbox">High:</div> 
+            <div class="wboxv"><span id="Temp"></span>&#7506; F</div> 
+            <div class="wbox"> Windspeed:</div> 
+            <div class="wboxv"><span id="WindSpeed"></span> mph</div>
+            <div class="wbox">WindChill:</div> 
+            <div class="wboxv"><span id="WindChill"></span>&#7506; F</div>
+            <div class="wbox">Humidity:</div>
+            <div class="wboxv"><span id="Humidity"></span></div>
+    </section>
+    </section>
+    <h2>The 5 Day Forecast</h2>
+    <section class="backgr">
+    <section id="forcast-box">
+    <div class="forcastday" id="day1"></div>
+    <div class="forcastday" id="day2"></div>
+    <div class="forcastday" id="day3"></div>
+    <div class="forcastday" id="day4"></div>
+    <div class="forcastday" id="day5"></div>
+    </section>
+    <section id="playbox">
+    <div class="forcast5icon"><img id="icon1" src="icon" alt="I1"><span id="temp1"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon2" src="icon" alt="I2"><span id="temp2"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon3" src="icon" alt="I3"><span id="temp3"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon4" src="icon" alt="I4"><span id="temp4"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon5" src="icon" alt="I5"><span id="temp5"></span>&deg; F</div>
+    </section>
+    </section>
+    <section class="Presart">
+        <img src="images/artpic.jpg" alt="drive">
+        <h2>History of Soda Springs</h2>
+        <p>Soda Springs has a rich history starting when the Pioneers headed west for California and Oregon. Due to the abundance of springs and water in the area, Soda Springs became known as the "Oregon Trail Oasis." The famous Steam Boat Springs and Hooper Springs, which was originally called "Beer Springs,"  were some of the main sites to be seen by the earlier settlers and travelers as well as the many sulfurous springs that many pioneers journaled about the smell coming from the them.</p>
+        <p>Click <a href="https://www.sodaspringsid.com/visitors/history.php"> here</a> to read more</a></p>
+    </section>
+
+    <section class="contactme">
+        <div class="Imap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93933.21001937211!2d-111.64956420453245!3d42.63140771925571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1584503369049!5m2!1sen!2sus"></iframe></div><br />
+        <div class="conicon">
+        <h2>Contact Us</h2>
+        <p>130 N Main<br>
+            Preston, ID 83263</p>
+        <p>&#128222;(208) 999-9999<br>
+            &#128231; wcenter@weatherorworry.com</p>
+            <img src="images/pinterest.png" alt="pin">
+            <img src="images/facebook.png" alt="face">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram-sketched.png" alt="insta">
+        </div>
+    </section>
+    </main>
+<footer>
+    <p>&copy; 2020 |James Jacobson| Utah|<a href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
+     last updated: <span id="getdate"></span>
+</footer>
+<script src="js/getdate.js"> </script>
+<script src="js/toggleMenu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/fonts.js"></script>
+<script src="js/weatherJson.js"></script>
+<script src="js/fiveday.js"></script>
+</body>
+</html>

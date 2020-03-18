@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preston with API</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="css/small.css" rel= "stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <img id="thunder" src="images/wonlogo.png" alt="mylogo">
+    <div>
+    <h1>Weather Or Worry</h1>
+    <h2 id="wind">Blow Your Weather Concerns Away.</h2>
+    </div>
+</header>
+<nav>
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="hamberg" class="hide">
+        <li><a href="">Home</a></li>
+        <li><a id="act" href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li> 
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Preston</h2>
+    <section class="theHero">
+        <picture>
+        <source media="(max-width: 500px)" srcset="images/valleysmall.jpg">
+        <source media="(max-width: 800px) and (min-width: 501px)" srcset="images/valleymid.jpg ">
+        <source media="(min-width: 801px)" srcset="images/valleylarge.jpg">
+        <img id="greenval" src="images/valleysmall.jpg" alt="hero">
+        </picture>
+        <section class="smallbox">
+            <div class="under">
+            <h3>How it's outside</h3>
+            </div>
+            <div class="wbox">Currently:</div>
+            <div class="wboxv"><img id="icon" src="icon" alt="weathericon"></div>
+            <div class="wbox">Current Temp:</div> 
+            <div class="wboxv"><span id="currenttemp"></span>&#7506; F</div>
+            <div class="wbox">High:</div> 
+            <div class="wboxv"><span id="Temp"></span>&#7506; F</div> 
+            <div class="wbox"> Windspeed:</div> 
+            <div class="wboxv"><span id="WindSpeed"></span> mph</div>
+            <div class="wbox">WindChill:</div> 
+            <div class="wboxv"><span id="WindChill"></span>&#7506; F</div>
+            <div class="wbox">Humidity:</div>
+            <div class="wboxv"><span id="Humidity"></span></div>
+    </section>
+    </section>
+    <h2>The 5 Day Forecast</h2>
+    <section class="backgr">
+    <section id="forcast-box">
+    <div class="forcastday" id="day1"></div>
+    <div class="forcastday" id="day2"></div>
+    <div class="forcastday" id="day3"></div>
+    <div class="forcastday" id="day4"></div>
+    <div class="forcastday" id="day5"></div>
+    </section>
+    <section id="playbox">
+    <div class="forcast5icon"><img id="icon1" src="icon" alt="I1"><span id="temp1"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon2" src="icon" alt="I2"><span id="temp2"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon3" src="icon" alt="I3"><span id="temp3"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon4" src="icon" alt="I4"><span id="temp4"></span>&deg; F</div>
+    <div class="forcast5icon"><img id="icon5" src="icon" alt="I5"><span id="temp5"></span>&deg; F</div>
+    </section>
+    </section>
+    <section class="Presart">
+        <img src="images/artpic.jpg" alt="drive">
+        <h2>Windy snowstorm expected to make roads dangerous</h2>
+        <p>By NECIA P. SEAMONS</p>
+        <p>The Idaho Transportation Department (ITD) and the National Weather Service (NWS) are advising the traveling public to use caution while in transit due to an extended severe winter weather advisory beginning this evening Wed., Feb. 5. 
+            Drivers can expect high winds, blowing and drifting snow, low visibilty and heavy snow in higher elevations. Up to five inches of snow in the valley and nine inches in the mountains is expected over the next 24 hours, in Franklin County, the eastern part of Oneida County and north throughout the Snake River Plain.
+            ITD advises drivers to expect intermittent road closures as forecasted increases of wind speed and precipitation may require a halt in snow-clearing operations if conditions become too dangerous for plows to operate.(Preston Citizen)</p>
+    </section>
+
+    <section class="contactme">
+        <div class="Imap"><iframe src="https://maps.google.com/maps?&amp;&amp;hl=en&amp;q=Preston%20Id+(TOWN)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe></div><br />
+        <div class="conicon">
+        <h2>Contact Us</h2>
+        <p>130 N Main<br>
+            Preston, ID 83263</p>
+        <p>&#128222;(208) 999-9999<br>
+            &#128231; wcenter@weatherorworry.com</p>
+            <img src="images/pinterest.png" alt="pin">
+            <img src="images/facebook.png" alt="face">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram-sketched.png" alt="insta">
+        </div>
+    </section>
+    </main>
+<footer>
+    <p>&copy; 2020 |James Jacobson| Utah|<a href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
+     last updated: <span id="getdate"></span>
+</footer>
+<script src="js/getdate.js"> </script>
+<script src="js/toggleMenu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/fonts.js"></script>
+<script src="js/weatherJson.js"></script>
+<script src="js/fiveday.js"></script>
+</body>
+</html>

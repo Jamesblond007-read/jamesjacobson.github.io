@@ -1,0 +1,41 @@
+@media screen and (min-width: 60em) {
+    .smallbox p {
+        font-size: 18px;
+    }
+    .thegallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .thegallery figure:hover {
+        box-shadow: 0  0 50px #333333;
+    }
+    form label.bub {
+        padding: 0.2rem;
+    }
+    main div div img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    main .HomeCards {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin: 10px;
+    }
+    main div div section {
+        margin-top: 1rem;
+    }  
+    .HomeCards section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    } 
+    .HomeCards section:nth-child(odd) {
+        flex-direction: column;
+    }
+}
