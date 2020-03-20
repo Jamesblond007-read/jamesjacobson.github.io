@@ -226,3 +226,14 @@ figure{
     text-align: center;
     color: #05668d;
 }
+.goingdown{
+    background-color: gray;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 3px solid black;
+}
+.goingdown p {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+}

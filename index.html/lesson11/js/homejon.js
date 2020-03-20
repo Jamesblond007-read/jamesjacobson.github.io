@@ -29,7 +29,6 @@ fetch(requestURL)
 
               image.setAttribute('src', "images/" + towns[i].photo);
               image.setAttribute('alt', "picture of: " + h2.textContent);
-              link.setAttribute('href', "preston" )
               div.appendChild(h2);
               div.appendChild(h3);
               div.appendChild(year);

@@ -14,19 +14,21 @@
 <body>
 <div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
 <header>
+    <a href="index.html">
     <img id="thunder" src="images/wonlogo.png" alt="mylogo">
     <div>
     <h1>Weather Or Worry</h1>
     <h2 id="wind">Blow Your Weather Concerns Away.</h2>
     </div>
+    </a>
 </header>
 <nav>
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="hamberg" class="hide">
         <li><a href="index.html">Home</a></li>
         <li><a id="act" href="">Preston</a></li>
-        <li><a href="">Soda Springs</a></li> 
-        <li><a href="">Fish Haven</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li> 
+        <li><a href="fishhaven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
@@ -85,6 +87,11 @@
             ITD advises drivers to expect intermittent road closures as forecasted increases of wind speed and precipitation may require a halt in snow-clearing operations if conditions become too dangerous for plows to operate.(Preston Citizen)</p>
     </section>
 
+    <section class="goingdown">
+        <h2>What's Happening</h2>
+        <div class="events"></div>
+    </section>
+
     <section class="contactme">
         <div class="Imap"><iframe src="https://maps.google.com/maps?&amp;&amp;hl=en&amp;q=Preston%20Id+(TOWN)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe></div><br />
         <div class="conicon">
@@ -110,5 +117,6 @@
 <script src="js/fonts.js"></script>
 <script src="js/weatherJson.js"></script>
 <script src="js/fiveday.js"></script>
+<script src="js/Eventsapi.js"></script>
 </body>
 </html>
