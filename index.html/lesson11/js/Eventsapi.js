@@ -18,7 +18,7 @@ fetch(requestURL)
 
               event1.textContent = towns[i].events[0];
               event2.textContent = towns[i].events[1];
-              event3.textContent = towns[i].events[3];
+              event3.textContent = towns[i].events[2];
 
               card.appendChild(event1);
               card.appendChild(event2);
