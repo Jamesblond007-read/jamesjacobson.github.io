@@ -108,4 +108,8 @@
 .HomeCards section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
+#logoclick {
+    margin: 0rem;
+    padding: 0rem;
+}
 }

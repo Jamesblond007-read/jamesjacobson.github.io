@@ -231,6 +231,7 @@ figure{
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border: 3px solid black;
+    text-align: center;
 }
 .goingdown p {
     text-align: center;

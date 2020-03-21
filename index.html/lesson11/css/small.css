@@ -7,6 +7,11 @@ body {
     box-sizing: border-box;
 }
 
+#logoclick {
+    margin: 0rem;
+    padding: 0rem;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -314,6 +319,18 @@ label.flexly {
     max-width: 100%;
     padding: 10px;
     border-radius: 4px;
+}
+.goingdown{
+    background-color: gray;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 3px solid black;
+    text-align: center;
+}
+.goingdown p {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
 }
 @media screen and (max-width: 32.5em) {
 .HomeCards {
