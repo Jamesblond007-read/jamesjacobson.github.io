@@ -1,4 +1,4 @@
-const requestURL = "https://github.com/Jamesblond007-read/jamesjacobson.github.io/profile.json";
+const requestURL = "https://github.com/Jamesblond007-read/jamesjacobson.github.io/blob/master/index.html/river_run/js/profile.json";
 
 fetch(requestURL)
   .then(function (response) {
