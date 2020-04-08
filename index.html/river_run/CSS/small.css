@@ -20,7 +20,7 @@ html {
 
 main {
 	margin: 0 auto;
-    background-color: #f0f3bd;
+    background-color: #e5e5e5;
     max-width: 1200px;
 }
 
@@ -29,7 +29,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-	background-color: #00a896; 
+	background-color: #cca43b; 
 }
 h2 {
     font-family: 'Spartan', sans-serif;
@@ -39,7 +39,7 @@ h2 {
 
 nav {
     padding: 0;
-    background-color: #05668d;
+    background-color: #363636;
     text-align: center;
 }
 
@@ -60,14 +60,14 @@ nav ul {
     overflow: hidden;
 }
 nav li a:hover {
-    background-color: #00a896;
+    background-color: #cca43b;
     color: black;
 }   
 footer {font-size: 16px;
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
-    background-color: #05668d;
+    background-color: #242f40;
     color: white;
 }
 
@@ -80,7 +80,7 @@ nav button {
     color: #fff;
 }
 nav button:hover {
-    background-color: #00a896;
+    background-color: #cca43b;
     color: black;
 }
 nav button:focus{
@@ -176,6 +176,13 @@ max-width: 1000px;
 background-color: #242f40;
 color: white;
 }
+.headline{
+    padding: 15px;
+    margin: 10px auto 15px auto;
+    max-width: 1500px;
+    background-color: #242f40;
+    color: white;
+    }
 .otherchunk{
     padding: 10px;
     margin: 0px auto 15px auto;
@@ -209,7 +216,7 @@ color: white;
     
 }
 #act{
-    background-color: #00a896;
+    background-color: #cca43b;
 }
 .Imap{
     display: none;
@@ -247,7 +254,7 @@ figure{
      border-radius: 12px;
      margin: 1rem 1rem;
      border: solid 2px black;
-     background-color: wheat;
+     background-color: #fff ;
  }
  fieldset legend {
     color: #05668d;
@@ -345,6 +352,54 @@ label.flexly {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     color: black;
+}
+main div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 0.5rem;
+    box-shadow: 0 0 25px gray;
+    margin: 0.5rem;
+}
+div section {
+    padding: 1em;
+    border: 2px solid #05668d;
+    border-radius: 5px;
+    background-color: #00a896;
+}
+table {
+    border: 1px solid lightgrey;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    box-shadow: 4px 4px 4px 4px #628ca6;
+}
+
+tbody th {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #628ca6;
+}
+
+tbody td {
+    padding: 10px;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+thead {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #7fb9c2;
 }
 @media screen and (max-width: 32.5em) {
 .HomeCards {

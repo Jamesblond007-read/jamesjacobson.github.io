@@ -38,4 +38,7 @@
     .HomeCards section:nth-child(odd) {
         flex-direction: column;
     }
+    main div.cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

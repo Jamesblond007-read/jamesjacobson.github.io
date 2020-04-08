@@ -1,0 +1,37 @@
+{
+    "guide": [
+    {
+        "name": "Frodo",
+        "lastname": "Baggins",
+        "email": "frodotheringman@middle_earth.com",
+        "length": 100,
+        "order": 1,
+        "experience": 3,
+        "certificatelv": "Adventurer",
+        "bio":"",
+        "imagepic": "guild1.jpg"
+      },
+      {
+        "name": "Brigham",
+        "lastname": "Young",
+        "birthdate": "01 June 1801",
+        "death": "29 August 1877",
+        "length": 100,
+        "order": 2,
+        "birthplace": "Vermont",
+        "numofchildren": 56,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      },
+      {
+        "name": "John",
+        "lastname": "Taylor",
+        "birthdate": "01 November 1808",
+        "death": "25 July 1887",
+        "length": 100,
+        "order": 3,
+        "birthplace": "England",
+        "numofchildren": 34,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      }
+    ]
+}

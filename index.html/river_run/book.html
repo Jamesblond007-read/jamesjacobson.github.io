@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>River Run</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="css/small.css" rel= "stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a id="logoclick" href="index.html">
+    <img id="thunder" src="images/wonlogo.png" alt="mylogo">
+    </a>
+    <div>
+    <h1>Salmon River Run</h1>
+    <h2 id="wind">Row into Adventure</h2>
+    </div>
+</header>
+<nav>
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="hamberg" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a id="act" href="book.html">Book a trip</a></li>
+        <li><a href="contact.html">Contact us</a></li> 
+        <li><a href="guide.html">A Guide to Guide</a></li>
+
+    </ul>
+</nav>
+
+<main>
+    <body>
+        <h1>Book a Trip</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                    <strong>Trips Options</strong>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Shire</th>
+                    <th>Gondor</th>
+                    <th>Mordor</th>
+                </tr>
+                <tr>
+                    <td>Beginner</td>
+                    <td>Advance</td>
+                    <td>Adventure</td>
+                </tr>
+                <tr>
+                    <td>2 Days</td>
+                    <td>3 Days</td>
+                    <td>7 Days</td>
+                </tr>
+                <tr>
+                    <td>$1,000</td>
+                    <td>$1,300</td>
+                    <td>$1,800</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>A Storm is Brewing</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Who are you </legend>
+                <label class="userinfo">What is your name Adventure* <input type="text" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
+                <label class="userinfo">What is your Email  <input type="email" placeholder="holyhandgrenade@holygrail.uk"></label>
+                <label class="userinfo">Phone Number to Contact<input type="tel" name="phone" required></label>
+                <label class="userinfo">What Rapids you what to go on<input list="stormtp" name="stormtype"></label>
+                    <datalist id="stormtp">
+                        <option value="Shire">
+                        <option value="Gondor">
+                        <option value="Mordor">
+                    </datalist>
+                <label class="userinfo">Start Date <input type="date" name="startdate"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Is there something we should know</legend>
+                    <label class="userinfo">Add a comments here please <textarea name="com" rows="10" cols="50"></textarea></label>
+            </fieldset>
+            <input id="thebutton" type="submit" value="Submit">
+        </form>
+    </main>
+<footer>
+    <p>&copy; 2020 |James Jacobson| Utah</p>
+     last updated: <span id="getdate"></span>
+</footer>
+<script src="js/getdate.js"> </script>
+<script src="js/toggleMenu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/fonts.js"></script>
+<script src="js/weatherJson.js"></script>
+</body>
+</html>
