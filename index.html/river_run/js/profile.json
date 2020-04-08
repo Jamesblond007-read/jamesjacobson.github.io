@@ -1,5 +1,5 @@
 {
-    "guide": [
+  "guide": [
     {
         "name": "Frodo",
         "lastname": "Baggins",
@@ -11,6 +11,7 @@
         "bio":"",
         "imagepic": "guild1.jpg"
       },
+
       {
         "name": "Sam",
         "lastname": "Gamgee",
@@ -22,6 +23,7 @@
         "bio":"",
         "imageurl": "guild2.jpg"
       },
+      
       {
         "name": "Gollem",
         "lastname": "Smeagol",
@@ -33,5 +35,5 @@
         "bio":"",
         "imageurl": "guild3.jpg"
       }
-    ]
+  ]
 }
