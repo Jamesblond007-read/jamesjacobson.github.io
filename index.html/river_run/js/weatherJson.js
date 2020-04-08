@@ -6,8 +6,6 @@ fetch(apiURL)
         
 document.getElementById('currenttemp').textContent = Math.round(((jsObject.main.temp-273.15)*1.8)+32);
 document.getElementById('Temp').textContent = Math.round(((jsObject.main.temp_max-273.15)*1.8)+32);
-document.getElementById('Humidity').textContent = Math.round(jsObject.main.humidity);
-document.getElementById('WindSpeed').textContent = Math.round(jsObject.wind.speed);
 const temp = document.getElementById('currenttemp').textContent;
 const wind = document.getElementById('WindSpeed').textContent;
 const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.weather[0].icon + '@2x.png';
