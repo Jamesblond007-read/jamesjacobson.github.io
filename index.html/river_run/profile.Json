@@ -12,26 +12,26 @@
         "imagepic": "guild1.jpg"
       },
       {
-        "name": "Brigham",
-        "lastname": "Young",
-        "birthdate": "01 June 1801",
-        "death": "29 August 1877",
+        "name": "Sam",
+        "lastname": "Gamgee",
+        "email": "sampotato@middle_earth.com",
         "length": 100,
         "order": 2,
-        "birthplace": "Vermont",
-        "numofchildren": 56,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "experience": 2,
+        "certificatelv": "Beginner",
+        "bio":"",
+        "imageurl": "guild2.jpg"
       },
       {
-        "name": "John",
-        "lastname": "Taylor",
-        "birthdate": "01 November 1808",
-        "death": "25 July 1887",
+        "name": "Gollem",
+        "lastname": "Smeagol",
+        "birthdate": "ringhunter@middle_earth.com",
         "length": 100,
         "order": 3,
-        "birthplace": "England",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "experience": 5,
+        "certificatelv": "Adventurer",
+        "bio":"",
+        "imageurl": "guild3.jpg"
       }
     ]
 }
