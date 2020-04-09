@@ -8,7 +8,7 @@
         "order": 1,
         "experience": 3,
         "certificatelv": "Adventurer",
-        "bio":"",
+        "bio":"Frodo was born in Riggins, Idaho and how grown up around these beautiful waters. His favorite activities include spelunking and high-mountain hiking. He enjoys spaghetti and meatballs when he’s back at home. He is friendly and experienced, making your trip both enjoyable and safe.",
         "imagepic": "guild1.jpg"
       },
 
@@ -20,19 +20,19 @@
         "order": 2,
         "experience": 2,
         "certificatelv": "Beginner",
-        "bio":"",
+        "bio":"Sam is from Boise, Idaho, but discovered his passion for white-water rafting here in Riggins. He isn’t afraid to get wet and be involved with the group. When not on an adventure with us, he enjoys long-distance bike rides and grilling steaks and friends and family.",
         "imageurl": "guild2.jpg"
       },
       
       {
-        "name": "Gollem",
+        "name": "Gollum",
         "lastname": "Smeagol",
         "birthdate": "ringhunter@middle_earth.com",
         "length": 100,
         "order": 3,
         "experience": 5,
         "certificatelv": "Adventurer",
-        "bio":"",
+        "bio":"Gollum got his nickname because of his wiry look and love of the water. River rafting is a perfect fit for him. He is an experienced rock climber and enjoys hunting each fall after river rafting season is done.",
         "imageurl": "guild3.jpg"
       }
   ]
