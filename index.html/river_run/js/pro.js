@@ -1,7 +1,8 @@
 const requestURL = "https://github.com/Jamesblond007-read/jamesjacobson.github.io/blob/master/index.html/river_run/js/profile.json";
 
-fetch(requestURL, {mode: "no-cors"})
+fetch(requestURL,)
   .then(function (response) {
+    console.log(response)
     return response.json();
   })
   .then(function (jsonObject) {
@@ -36,4 +37,4 @@ fetch(requestURL, {mode: "no-cors"})
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
-  }});
+  }}).catch(error=>console.log(error));
