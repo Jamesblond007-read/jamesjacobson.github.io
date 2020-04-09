@@ -37,4 +37,4 @@ fetch(requestURL,)
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
-  }}).catch(error=>console.log(error));
+  }});
