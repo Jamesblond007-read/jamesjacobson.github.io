@@ -1,0 +1,19 @@
+
+span.help {
+    background-color: green;
+}
+[title*=fieldset] {
+    background-color: hotpink;
+}
+fieldset[title=fieldset2] > p + p {
+    background-color: indigo;
+}
+.help::before {
+    content: "( ";
+}
+.help::after {
+    content: " )";
+}
+p:nth-of-type(n+3) {
+    display: none;
+}
